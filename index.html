@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIT HATRIT TAXI 77</title>
+
+<style>
+body {
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#0b0b0b;
+    color:white;
+}
+
+header {
+    display:flex;
+    justify-content:space-between;
+    padding:20px 50px;
+    background:#000;
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:1000;
+}
+
+header a {
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+}
+
+.hero {
+    background:url('https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2') center/cover no-repeat;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    padding:0 50px;
+    position:relative;
+}
+
+.overlay {
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:linear-gradient(90deg, rgba(0,0,0,0.9), rgba(0,0,0,0.3));
+}
+
+.hero-content {
+    position:relative;
+    max-width:600px;
+}
+
+.hero h1 span {
+    color:#d4af37;
+}
+
+.btn {
+    padding:12px 25px;
+    border-radius:8px;
+    text-decoration:none;
+    margin-right:10px;
+}
+
+.btn-gold {
+    background:#d4af37;
+    color:black;
+}
+
+.btn-whatsapp {
+    background:#25D366;
+    color:white;
+}
+
+.services {
+    padding:80px 50px;
+    text-align:center;
+}
+
+.cards {
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.card {
+    background:#111;
+    border:1px solid #d4af37;
+    padding:20px;
+    border-radius:10px;
+    width:250px;
+}
+
+.contact {
+    padding:80px 50px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.contact-box {
+    background:#111;
+    padding:30px;
+    border-radius:10px;
+    border:1px solid #d4af37;
+    max-width:400px;
+}
+
+.whatsapp-float {
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    padding:15px;
+    border-radius:50%;
+    font-size:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>AIT HATRIT TAXI 77</h2>
+    <div>
+        <a href="#">Accueil</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </div>
+</header>
+
+<section class="hero">
+<div class="overlay"></div>
+
+<div class="hero-content">
+    <h1>Votre taxi privé en <span>Villeparisis (77)</span></h1>
+    <p>Transferts fiables vers CDG, Orly, Disneyland Paris</p>
+
+    <br>
+
+    <a href="tel:0759744453" class="btn btn-gold">📞 Appeler</a>
+    <a href="https://wa.me/33759744453" class="btn btn-whatsapp">WhatsApp</a>
+</div>
+</section>
+
+<section class="services">
+<h2>Nos services</h2>
+
+<div class="cards">
+    <div class="card">
+        <h3>CDG</h3>
+        <p>Transfert aéroport Charles de Gaulle</p>
+    </div>
+
+    <div class="card">
+        <h3>Orly</h3>
+        <p>Transport rapide vers Orly</p>
+    </div>
+
+    <div class="card">
+        <h3>Disneyland</h3>
+        <p>Voyage confortable famille</p>
+    </div>
+</div>
+</section>
+
+<section class="contact">
+<div class="contact-box">
+    <h2>Contact</h2>
+    <p>📞 07 59 74 44 53</p>
+    <p>📧 aithatrit.taxi77@gmail.com</p>
+    <p>📍 Seine-et-Marne</p>
+
+    <a href="tel:0759744453" class="btn btn-gold">Appeler</a>
+</div>
+</section>
+
+<a href="https://wa.me/33759744453" class="whatsapp-float">💬</a>
+
+</body>
+</html>
